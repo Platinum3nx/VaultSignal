@@ -1,0 +1,30 @@
+{
+  "name": "signal-agent",
+  "version": "1.0.1",
+  "description": "Daily behavioral observations from your Nia Vault",
+  "bin": {
+    "signal-agent": "./bin/signal.js"
+  },
+  "type": "module",
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "keywords": [
+    "nia",
+    "vault",
+    "ai",
+    "observations",
+    "developer-tools"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "node-cron": "^3.0.3",
+    "resend": "^3.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

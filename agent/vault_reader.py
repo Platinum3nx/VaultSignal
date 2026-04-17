@@ -57,7 +57,7 @@ def read_vault() -> tuple[str, int]:
 
     # Step 1: Get vault metadata
     print("  Fetching vault metadata...")
-    meta_output = _run_nia(["vault", "get", vault_id, "--no-color"], timeout=30)
+    meta_output = _run_nia(["vault", "get", vault_id, "--no-color"], timeout=60)
     page_count = 0
     for line in meta_output.split("\n"):
         if "total_pages" in line.lower() or "page" in line.lower():
