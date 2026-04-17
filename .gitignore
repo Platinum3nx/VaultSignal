@@ -1,0 +1,21 @@
+# env
+.env
+PRD.md
+
+# Node
+node_modules/
+.next/
+dashboard/.next/
+dashboard/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+agent/.venv/
+.venv/
+
+# Supabase
+supabase/.temp/
+
+# OS
+.DS_Store
