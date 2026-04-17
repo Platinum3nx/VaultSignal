@@ -1,6 +1,7 @@
 # env
 .env
 PRD.md
+PRDCLI.md
 
 # Node
 node_modules/
